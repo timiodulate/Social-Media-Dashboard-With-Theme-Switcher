@@ -211,7 +211,7 @@ section .card {
 } 
 .overview .card .count h3 {
     color: var(--text);
-    font-size: ;
+    /* font-size: ; */
 }
 
 
