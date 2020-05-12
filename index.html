@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social Media Dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  
+</head>
+<body>
+  <header>
+    <div class="title">
+      <h2>Social Media Dashboard</h2>
+      <p>Total Followers: 23,004</p>
+    </div>
+    <div class="mode">
+      <input type="checkbox" name="theme" id="switch"/><label for="switch">Toggle</label>
+    </div>
+  </header>
+
+  <main>
+    <section class="socialCards">
+      <div class="card facebook">
+        <div class="name">
+          <img src="./images/icon-facebook.svg" alt="" srcset="">
+          <h2 id="username">
+            @nathanf
+          </h2>
+        </div>
+        
+        <p id="followers">
+          1987
+          
+          <span>
+            Followers
+          </span>
+        </p>
+        
+        <div class="rank">
+          <img src="./images/icon-up.svg" alt="" srcset="">
+          <p id="up">
+            12 Today
+          </p>
+        </div>
+      </div>
+
+      <div class="card twitter">
+        <div class="name">
+          <img src="./images/icon-twitter.svg" alt="" srcset="">
+          <h2 id="username">
+            @nathanf
+          </h2>
+        </div>
+
+        <p id="followers">
+          1044
+
+          <span>
+            Followers
+          </span>
+        </p>
+
+        <div class="rank">
+          <img src="./images/icon-up.svg" alt="" srcset="">
+          <p id="up">
+            99 Today
+          </p>
+        </div>
+      </div>
+
+      <div class="card instagram">
+        <div class="name">
+          <img src="./images/icon-instagram.svg" alt="" srcset="">
+          <h2 id="username">
+            @realnathanf
+          </h2>
+        </div>
+
+        <p id="followers">
+          11k
+
+          <span>
+            Followers
+          </span>
+        </p>
+
+        <div class="rank">
+          <img src="./images/icon-up.svg" alt="" srcset="">
+          <p id="up">
+            1099 Today
+          </p>
+        </div>
+      </div>
+
+      <div class="card youtube">
+        <div class="name">
+          <img src="./images/icon-youtube.svg" alt="" srcset="">
+          <h2 id="username">
+            Nathan F.
+          </h2>
+        </div>
+
+        <p id="followers">
+          8239
+
+          <span>
+            Followers
+          </span>
+        </p>
+
+        <div class="rank">
+          <img src="./images/icon-down.svg" alt="" srcset="">
+          <p id="down">
+            144 Today
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <h2 class="overviewTitle">
+      Overview - Today
+    </h2>
+    <section class="overview">
+
+        <!-- <div class="cards"> -->
+          <div class="card">
+            <div class="page">
+              <p>
+                Page Views
+              </p>
+              <img src="./images/icon-facebook.svg" alt="" srcset="">
+            </div>
+            <div class="count">
+              <h3>
+                87
+              </h3>
+              <div class="rank">
+                <img src="./images/icon-up.svg" alt="" srcset="">
+                <p id="up">
+                  3%
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="page">
+              <p>
+                Likes
+              </p>
+              <img src="./images/icon-facebook.svg" alt="" srcset="">
+            </div>
+            <div class="count">
+              <h3>
+                52
+              </h3>
+
+              <div class="rank">
+                <img src="./images/icon-down.svg" alt="" srcset="">
+                <p id="down">
+                  2%
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="page">
+              <p>
+                Likes
+              </p>
+              <img src="./images/icon-instagram.svg" alt="" srcset="">
+            </div>
+            <div class="count">
+              <h3>
+                5462
+              </h3>
+
+              <div class="rank">
+                <img src="./images/icon-up.svg" alt="" srcset="">
+                <p id="up">
+                  2257%
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="page">
+              <p>
+                Page Views
+              </p>
+              <img src="./images/icon-instagram.svg" alt="" srcset="">
+            </div>
+            <div class="count">
+              <h3>
+                52k
+              </h3>
+              <div class="rank">
+                <img src="./images/icon-up.svg" alt="" srcset="">
+                <p id="up">
+                  1375%
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="page">
+              <p>
+                Retweets
+              </p>
+              <img src="./images/icon-twitter.svg" alt="" srcset="">
+            </div>
+            <div class="count">
+              <h3>
+                117
+              </h3>
+              <div class="rank">
+                <img src="./images/icon-up.svg" alt="" srcset="">
+                <p id="up">
+                  303%
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="page">
+              <p>
+                Likes
+              </p>
+              <img src="./images/icon-twitter.svg" alt="" srcset="">
+            </div>
+            <div class="count">
+              <h3>
+                507
+              </h3>
+              <div class="rank">
+                <img src="./images/icon-up.svg" alt="" srcset="">
+                <p id="up">
+                  553%
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="page">
+              <p>
+                Likes
+              </p>
+              
+              <img src="./images/icon-youtube.svg" alt="" srcset="">
+            </div>
+            <div class="count">
+              <h3>
+                107
+              </h3>
+
+              <div class="rank">
+                <img src="./images/icon-down.svg" alt="" srcset="">
+                <p id="down">
+                  19%
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="page">
+              <p>
+                Page Views
+              </p>
+              <img src="./images/icon-youtube.svg" alt="" srcset="">
+            </div>
+            <div class="count">
+              <h3>
+                1407
+              </h3>
+
+              <div class="rank">
+                <img src="./images/icon-down.svg" alt="" srcset="">
+                <p id="down">
+                  12%
+                </p>
+              </div>
+            </div>
+          </div>
+        <!-- </div> -->
+    
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">timiodulate</a>.
+  </div>
+</body>
+
+<script src="./js/app.js"></script>
+</html>
