@@ -11,10 +11,10 @@ html {
     width: 100%;
     border: solid white;
 
-
+/* 
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-items: center; */
 
     --bg: hsl(0, 0%, 100%);
     --bg-top: hsl(225, 100%, 98%);
