@@ -220,6 +220,7 @@ section .card {
     font-size: .75rem; 
     text-align: center;
     color: var(--text);
+    padding-bottom: 20px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
